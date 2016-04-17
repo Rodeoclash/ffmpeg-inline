@@ -4,7 +4,9 @@
   "description": "Bridge between JavaScript and ffmpeg for Chrome browsers",
   "main": "index.js",
   "scripts": {
-    "test": "karma start"
+    "develop": "./node_modules/.bin/webpack-dev-server --port 8000 --progress --colors --inline --content-base ./examples/",
+    "test": "karma start --single-run",
+    "test-watch": "karma start"
   },
   "author": "Samuel Richardson",
   "license": "ISC",
