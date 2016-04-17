@@ -3,8 +3,7 @@ Wrapper around a pexe based version of ffmpeg
 ## Usage
 
 ```
-var file = event.target.files[0] // from <input type="file" /> change
-event
+var file = event.target.files[0] // from <input type="file" /> change event
 var inputFiles = [file]
 var globalOptions = '-y' // always overwrite files
 var convertOptions = '-preset ultrafast -s 320x200'
