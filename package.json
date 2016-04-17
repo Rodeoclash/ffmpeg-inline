@@ -1,6 +1,6 @@
 {
   "name": "ffmpeg-inline",
-  "version": "0.0.1",
+  "version": "0.5.0",
   "description": "Bridge between JavaScript and ffmpeg for Chrome browsers",
   "main": "index.js",
   "scripts": {
