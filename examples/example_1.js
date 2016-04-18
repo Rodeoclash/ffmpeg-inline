@@ -11,10 +11,32 @@ $(function() {
     var outputFiles = ['output.webm']
 
     window.ffmpeg(globalOptions, inputFiles, convertOptions, outputFiles, {
-      // load start, loading, load finish
-      onProgress: function(progress) {
-        console.log('progress', progress)
+
+      // Pexe loading started
+      onLoadstart: function(event) {
+        console.log('loadstart', event)
+      },
+
+      // Pexe load progress
+      onProgress: function(event) {
+        console.log('progress', event)
+      },
+
+      // Pexe load successful
+      onLoad: function(event) {
+        console.log('load', event)
+      },
+
+      // Pexe load ended
+      onLoadend: function(event) {
+        console.log('loadend', event)
+      },
+
+      // Called when ffmpeg has processed some frames
+      onMessage: function(message) {
+        console.log('message', message)
       }
+
     }).then(function(results) {
       const result = results[0]
       const url = window.URL.createObjectURL(result)
