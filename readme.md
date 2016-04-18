@@ -1,3 +1,6 @@
+[![Build
+Status](https://travis-ci.org/Rodeoclash/ffmpeg-inline.svg?branch=master)](https://travis-ci.org/Rodeoclash/ffmpeg-inline)
+
 Wrapper around a pexe based version of ffmpeg
 
 ## Usage
