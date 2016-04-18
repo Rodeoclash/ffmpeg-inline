@@ -16,7 +16,7 @@ var configuration = {
   },
 
   webpack: {
-    loaders: webpack.loaders,
+    module: webpack.module,
   },
 
   webpackMiddleware: {
