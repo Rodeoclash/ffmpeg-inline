@@ -22,7 +22,7 @@ See examples folder for working versions.
 
 ## Contributing
 
-Run `make develop` to setup local dev envionment (run examples at:
+Run `npm run-script develop` to setup local dev envionment (run examples at:
 `http://localhost:8000/example_1.html`)
 
-Run `make test` to execute test suite.
+Run `npm test` to execute test suite.
