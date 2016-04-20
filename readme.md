@@ -29,3 +29,7 @@ Run `npm run-script develop` to setup local dev envionment (run examples at:
 `http://localhost:8000/example_1.html`)
 
 Run `npm test` to execute test suite.
+
+## Credits
+
+Thanks to http://neo.idletime.tokyo/enu/ffmpeg_pnacl/ for the pexe used in this library.
